@@ -10,10 +10,6 @@ int RemoveDups(int arr[], int n)
         {
            temp[j++] = v[i]; 
         }
-        else
-        {
-            temp[j++] = v[n-1];    
-        }
     }
     
     for(i=0;i<10;i++)
