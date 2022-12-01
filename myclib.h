@@ -1,7 +1,10 @@
-// Last update  30/11/2022
+// Last update  01/12/2022
 
 
-// Removes duplicates from a sorted array
+// Calculates the sum of a number using the fibonacci sequence
+int fibonacci(int n)
+
+// Removes duplicates in a sorted array
 int RemoveDups(int v[], int n);
 
 // Sorts an array
