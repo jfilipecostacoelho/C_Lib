@@ -1,5 +1,23 @@
 /*
-Removes duplicates numbers from a sort array
+Calculates the sum of a number using the fibonacci sequence
+*/
+int fibonacci(int n)
+{
+    int n, z, x = 1, y = 2, i = 3;
+ 
+    for (i; i <= n; i = i + 1)           
+    {                                       
+        z = x + y;
+        x = y;
+        y = z;
+        printf("\n  fib(%d)=%d",i, z);
+    }                      
+    
+    return z;
+}
+//----------------------------------------------------------------------------------------------
+/*
+Removes duplicates numbers in a sorted array
 */
 int RemoveDups(int arr[], int n)
 {
@@ -22,7 +40,7 @@ int RemoveDups(int arr[], int n)
   
     return j;
 }
-
+//----------------------------------------------------------------------------------------------
 /*
 Sort Array
 */
