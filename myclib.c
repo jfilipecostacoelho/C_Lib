@@ -1,6 +1,4 @@
-/*
-Calculates the sum of a number using the fibonacci sequence
-*/
+// Calculates the sum of a number using the fibonacci sequence
 int fibonacci(int n)
 {
     int n, z, x = 1, y = 2, i = 3;
@@ -16,9 +14,7 @@ int fibonacci(int n)
     return z;
 }
 //----------------------------------------------------------------------------------------------
-/*
-Removes duplicates numbers in a sorted array
-*/
+// Removes duplicates numbers in a sorted array
 int RemoveDups(int arr[], int n)
 {
     int temp[n];
@@ -41,9 +37,7 @@ int RemoveDups(int arr[], int n)
     return j;
 }
 //----------------------------------------------------------------------------------------------
-/*
-Sort Array
-*/
+// Sort Array
 void Sort(int v[], int n)
 {
     int aux = 0, swap = 0;;
@@ -63,4 +57,10 @@ void Sort(int v[], int n)
     {
        Sort(v, 1000);
     }
+}
+//----------------------------------------------------------------------------------------------
+// Prints a float with two decimals
+void TwoDecimals(float num)
+{
+    printf("%.2f ", num);
 }
