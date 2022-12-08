@@ -9,3 +9,6 @@ int RemoveDups(int v[], int n);
 
 // Sorts an array
 void Sort(int v[], int n)
+
+// Prints a float with two decimals
+void TwoDecimals(float num)
